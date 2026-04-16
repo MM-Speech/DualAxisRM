@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# Packaging
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.DS_Store
+.idea/
+.vscode/
+
+# Training artifacts
+outputs/
+checkpoints/
+runs/
+wandb/
+logs/
+
+# Large data assets
+/data/
+/datasets/
+assets/audio/
+*.wav
+*.flac
+*.mp3
+*.tar
+*.zip
+*.safetensors
+*.bin
+
+# Local misc
+.env
+.codex
+.codex/

@@ -1,0 +1,2 @@
+{"audio":"audio/sample_good.wav","overall_score":2,"response_think":"The second speaker responds directly to the previous turn and keeps the topic coherent throughout the dialogue.","fluency_think":"Turn-taking is natural, with no harmful overlap and no long pause between turns."}
+{"audio":"audio/sample_bad.wav","overall_score":1,"response_think":"The reply partially ignores the previous turn and introduces an inconsistent direction.","fluency_think":"There is a prolonged overlap that harms turn-taking smoothness."}
