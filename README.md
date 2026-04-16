@@ -1,5 +1,3 @@
-# DualAxisRM
-
 <div align="center">
   <p><strong>Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models</strong></p>
   <p>Accepted by ACL 2026 Main Conference</p>
@@ -31,8 +29,8 @@ DualAxisRM is a generative reward model for interactive spoken dialogue evaluati
 
 The model generates explicit chain-of-thought style analyses for both axes and then outputs a unified binary reward:
 
-- `1`: poor interaction
-- `2`: strong interaction
+- `0`: poor interaction
+- `1`: strong interaction
 
 ## What Is Released
 
@@ -87,7 +85,7 @@ Each input line in `examples/data/source.example.jsonl` follows this schema:
 ```json
 {
   "audio": "relative/or/absolute/path/to/dialogue.wav",
-  "overall_score": 2,
+  "overall_score": 1,
   "response_think": "The response stays coherent and answers the previous turn directly.",
   "fluency_think": "Turn-taking is natural, with no harmful overlap or long silence."
 }
@@ -148,13 +146,3 @@ bash scripts/infer.sh
 - The current release is training-code only.
 - `Model` and `Dataset` are coming soon.
 
-## Citation
-
-```bibtex
-@inproceedings{dualaxisrm_acl2026,
-  title={Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models},
-  author={Coming Soon},
-  booktitle={Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)},
-  year={2026}
-}
-```
