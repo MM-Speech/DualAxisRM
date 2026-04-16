@@ -3,9 +3,9 @@
   <p>Accepted by ACL 2026 Main Conference</p>
   <p>
     <a href="https://dualrm.github.io/">Project Page</a> |
-    <span>Paper Coming Soon</span> |
-    <span>Model Coming Soon</span> |
-    <span>Dataset Coming Soon</span>
+    <span>Paper</span> |
+    <span>Model</span> |
+    <span>Dataset</span>
   </p>
 </div>
 
@@ -144,5 +144,4 @@ bash scripts/infer.sh
 ## Notes
 
 - The current release is training-code only.
-- `Model` and `Dataset` are coming soon.
-
+- Model weights and dataset release details will be updated on the project page.
