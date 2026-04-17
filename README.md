@@ -145,3 +145,18 @@ bash scripts/infer.sh
 
 - The current release is training-code only.
 - Model weights and dataset release details will be updated on the project page.
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@misc{chen2026dualaxisgenerativerewardmodel,
+  title={Dual-Axis Generative Reward Model Toward Semantic and Turn-taking Robustness in Interactive Spoken Dialogue Models},
+  author={Yifu Chen and Shengpeng Ji and Zhengqing Liu and Qian Chen and Wen Wang and Ziqing Wang and Yangzhuo Li and Tianle Liang and Zhou Zhao},
+  year={2026},
+  eprint={2604.14920},
+  archivePrefix={arXiv},
+  primaryClass={cs.AI},
+  url={https://arxiv.org/abs/2604.14920}
+}
